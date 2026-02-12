@@ -1,5 +1,5 @@
 .body{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 
 }
 .htitle{
@@ -15,17 +15,33 @@
 .card{
     border: 1px solid lightgray;
     width:300px;
+    /* height:500px; */
     padding: 10px;
     margin: 10px auto;
     border-radius: 14px;
     
 }
-
+.card .textBox{
+    text-align: center;
+    color: gray;
+}
+.card h4{
+    text-align:justify;
+    padding: 0px 30px;
+    color: gray;
+}
+.card h2{
+    text-align:center;
+    /* padding: 0px 30px; */
+}
+.txtStrong{
+    color: black;
+}
 .textBox{
     border: 1px solid lightgray;
     width:70%;
     padding: 10px;
-    margin: 5px 32px;
+    margin: 5px 32px; /*why auto does not work*/
     border-radius: 7px;
     
 } 
@@ -34,7 +50,7 @@
     padding: 10px;
     width: 70%;
     margin: 5px auto;
-    background-color: darkslateblue;
+    background-color: #3bb489;
     color: white;
     text-align: center;
     border-radius:7px;
@@ -42,6 +58,8 @@
 
 img{
     width: 100%;
-    padding: 2px;
+    padding: auto;
     border-radius: 14px;
+    /* border: 1px solid black; */
+    margin: 0px auto;
 }
